@@ -1,0 +1,160 @@
+[
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.ClienteController",
+    "Method": "PutCliente",
+    "RelativePath": "api/Cliente/ActualizarCliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cliente",
+        "Type": "Repository.Models.ClienteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.ClienteController",
+    "Method": "PostCliente",
+    "RelativePath": "api/Cliente/CrearCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "Repository.Models.ClienteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.ClienteController",
+    "Method": "DeleteCliente",
+    "RelativePath": "api/Cliente/EliminarCliente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.ClienteController",
+    "Method": "GetClienteById",
+    "RelativePath": "api/Cliente/ObtenerClientePorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.ClienteController",
+    "Method": "GetAllClientes",
+    "RelativePath": "api/Cliente/ObtenerClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.FacturaController",
+    "Method": "PutFactura",
+    "RelativePath": "api/Factura/Actualizar/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "factura",
+        "Type": "Repository.Models.FacturaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.FacturaController",
+    "Method": "PostFactura",
+    "RelativePath": "api/Factura/CrearFactura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factura",
+        "Type": "Repository.Models.FacturaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.FacturaController",
+    "Method": "DeleteFactura",
+    "RelativePath": "api/Factura/Eliminar/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.FacturaController",
+    "Method": "GetFacturaById",
+    "RelativePath": "api/Factura/ObtenerFacturaPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "api.SPIoavMondschein.Controllers.FacturaController",
+    "Method": "GetAllFacturas",
+    "RelativePath": "api/Factura/ObtenerFacturas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
