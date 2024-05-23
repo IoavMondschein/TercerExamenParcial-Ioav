@@ -44,3 +44,4 @@ C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\api.SPIoavMondschein\bin\Debug
 C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\api.SPIoavMondschein\bin\Debug\net6.0\Repository.pdb
 C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\api.SPIoavMondschein\bin\Debug\net6.0\Services.dll
 C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\api.SPIoavMondschein\bin\Debug\net6.0\Services.pdb
+C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\api.SPIoavMondschein\obj\Debug\net6.0\api.SPIoavMondschein.sourcelink.json

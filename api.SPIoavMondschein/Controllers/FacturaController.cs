@@ -48,16 +48,10 @@ namespace api.SPIoavMondschein.Controllers
             return Ok(factura);
         }
 
-        [HttpPut("Actualizar/{id}")]
-        public IActionResult PutFactura(int id, [FromBody] FacturaModel factura)
+        [HttpPut("Actualizar")]
+        public IActionResult PutFactura( [FromBody] FacturaModel factura)
         {
-            var existingFactura = _facturaRepository.GetFacturaById(id);
-            if (existingFactura == null)
-            {
-                return NotFound();
-            }
 
-            factura.Id = id;
             _facturaRepository.UpdateFactura(factura);
             return Ok("Factura actualizada correctamente.");
         }

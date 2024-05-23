@@ -12,3 +12,4 @@ C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\Repository\obj\Debug\net6.0\re
 C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\Repository\obj\Debug\net6.0\Repository.pdb
 C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
 C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\HP\Desktop\OptativoV-SegundoParcial-Ioav\Repository\obj\Debug\net6.0\Repository.sourcelink.json

@@ -3,34 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\api.spioavmondschein\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\api.spioavmondschein\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|solutionrelative:controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\repository\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71D55A0-252A-4ED3-A2A8-C2474C84A26F}|..\\Services\\Services.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B71D55A0-252A-4ED3-A2A8-C2474C84A26F}|..\\Services\\Services.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\api.spioavmondschein\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|solutionrelative:controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\api.spioavmondschein\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Migrations\\20240522031357_DatabaseFinalUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\models\\facturamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -39,14 +19,40 @@
       "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B71D55A0-252A-4ED3-A2A8-C2474C84A26F}|..\\Services\\Services.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\api.spioavmondschein\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Migrations\\20240522232631_hola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\api.spioavmondschein\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Migrations\\20240522023954_DatabaseUpdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\api.spioavmondschein\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22CD12FD-6ECD-4BA4-9BBB-D77DDB53FDDB}|api.SPIoavMondschein.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Migrations\\20240522022430_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B71D55A0-252A-4ED3-A2A8-C2474C84A26F}|..\\Services\\Services.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\migrations\\20240522031357_databasefinalupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\migrations\\20240522022430_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E17E4CC-5C5E-447B-A920-83C475E96F05}|..\\Repository\\Repository.csproj|c:\\users\\hp\\desktop\\optativov-segundoparcial-ioav\\repository\\migrations\\20240522023954_databaseupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,52 +66,52 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "Controllers\\ClienteController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAlAAAA",
+              "DocumentIndex": 3,
+              "Title": "FacturaModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Models\\FacturaModel.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Models\\FacturaModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Models\\FacturaModel.cs",
+              "RelativeToolTip": "..\\Repository\\Models\\FacturaModel.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAUwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T02:30:38.064Z",
+              "WhenOpened": "2024-05-22T02:02:18.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "FacturaService.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Services\\FacturaService.cs",
               "RelativeDocumentMoniker": "..\\Services\\FacturaService.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Services\\FacturaService.cs",
               "RelativeToolTip": "..\\Services\\FacturaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAkAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T03:05:11.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClienteService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Services\\ClienteService.cs",
-              "RelativeDocumentMoniker": "..\\Services\\ClienteService.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Services\\ClienteService.cs",
-              "RelativeToolTip": "..\\Services\\ClienteService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "FacturaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Repository\\FacturaRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Repository\\FacturaRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Repository\\FacturaRepository.cs",
+              "RelativeToolTip": "..\\Repository\\Repository\\FacturaRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwCEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T02:29:44.253Z",
+              "WhenOpened": "2024-05-22T03:04:37.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ClienteRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Repository\\ClienteRepository.cs",
               "RelativeDocumentMoniker": "..\\Repository\\Repository\\ClienteRepository.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Repository\\ClienteRepository.cs",
               "RelativeToolTip": "..\\Repository\\Repository\\ClienteRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA5wBIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T02:29:12.057Z",
               "EditorCaption": ""
@@ -113,58 +119,121 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FacturaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Repository\\FacturaRepository.cs",
-              "RelativeDocumentMoniker": "..\\Repository\\Repository\\FacturaRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Repository\\FacturaRepository.cs",
-              "RelativeToolTip": "..\\Repository\\Repository\\FacturaRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T03:04:37.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\AppDbContext.cs",
               "RelativeDocumentMoniker": "..\\Repository\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\AppDbContext.cs",
               "RelativeToolTip": "..\\Repository\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowBMAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T01:59:24.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBEAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T02:09:24.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "FacturaController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Controllers\\FacturaController.cs",
               "RelativeDocumentMoniker": "Controllers\\FacturaController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Controllers\\FacturaController.cs",
               "RelativeToolTip": "Controllers\\FacturaController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwCcAAAArAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwDQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T03:06:07.11Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Models\\ClienteModel.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Models\\ClienteModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Models\\ClienteModel.cs",
+              "RelativeToolTip": "..\\Repository\\Models\\ClienteModel.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAiwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T02:01:57.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T02:09:24.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Repository.csproj",
+              "RelativeDocumentMoniker": "..\\Repository\\Repository.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Repository.csproj",
+              "RelativeToolTip": "..\\Repository\\Repository.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-22T23:33:58.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240522232631_hola.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Migrations\\20240522232631_hola.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Migrations\\20240522232631_hola.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Migrations\\20240522232631_hola.cs",
+              "RelativeToolTip": "..\\Repository\\Migrations\\20240522232631_hola.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T23:26:32.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T01:55:53.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Services\\ClienteService.cs",
+              "RelativeToolTip": "..\\Services\\ClienteService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T02:29:44.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T02:30:38.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "20240522031357_DatabaseFinalUpdate.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Migrations\\20240522031357_DatabaseFinalUpdate.cs",
               "RelativeDocumentMoniker": "..\\Repository\\Migrations\\20240522031357_DatabaseFinalUpdate.cs",
@@ -172,51 +241,11 @@
               "RelativeToolTip": "..\\Repository\\Migrations\\20240522031357_DatabaseFinalUpdate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T03:13:57.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T03:13:57.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClienteModel.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Models\\ClienteModel.cs",
-              "RelativeDocumentMoniker": "..\\Repository\\Models\\ClienteModel.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Models\\ClienteModel.cs",
-              "RelativeToolTip": "..\\Repository\\Models\\ClienteModel.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAIwBYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T02:01:57.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FacturaModel.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Models\\FacturaModel.cs",
-              "RelativeDocumentMoniker": "..\\Repository\\Models\\FacturaModel.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Models\\FacturaModel.cs",
-              "RelativeToolTip": "..\\Repository\\Models\\FacturaModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAwwAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T02:02:18.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\api.SPIoavMondschein\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-22T01:55:53.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "20240522022430_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Migrations\\20240522022430_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\Repository\\Migrations\\20240522022430_InitialCreate.cs",
@@ -224,12 +253,11 @@
               "RelativeToolTip": "..\\Repository\\Migrations\\20240522022430_InitialCreate.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T02:24:30.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T02:24:30.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "20240522023954_DatabaseUpdate.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Repository\\Migrations\\20240522023954_DatabaseUpdate.cs",
               "RelativeDocumentMoniker": "..\\Repository\\Migrations\\20240522023954_DatabaseUpdate.cs",
@@ -237,8 +265,7 @@
               "RelativeToolTip": "..\\Repository\\Migrations\\20240522023954_DatabaseUpdate.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-22T02:39:54.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-22T02:39:54.41Z"
             }
           ]
         }
