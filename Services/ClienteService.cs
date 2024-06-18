@@ -1,4 +1,6 @@
-﻿using Repository.Models;
+﻿using FluentValidation;
+using FluentValidation.Results;
+using Repository.Models;
 using Repository.Repository;
 
 namespace Services
@@ -6,24 +8,30 @@ namespace Services
     public class ClienteService
     {
         private readonly ClienteRepository _clienteRepository;
+        private readonly IValidator<ClienteModel> _clienteValidator;
 
-        public ClienteService(ClienteRepository clienteRepository)
+        public ClienteService(ClienteRepository clienteRepository, IValidator<ClienteModel> clienteValidator)
         {
             _clienteRepository = clienteRepository;
+            _clienteValidator = clienteValidator;
         }
 
-        public bool ValidateCliente(ClienteModel cliente)
+        public async Task<ValidationResult> CreateClienteAsync(ClienteModel cliente)
         {
-            if (string.IsNullOrEmpty(cliente.Nombre) || string.IsNullOrEmpty(cliente.Apellido) || string.IsNullOrEmpty(cliente.Documento))
-                return false;
+            ValidationResult result = _clienteValidator.Validate(cliente);
 
-            if (cliente.Nombre.Length < 3 || cliente.Apellido.Length < 3 || cliente.Documento.Length < 3)
-                return false;
+            if (!result.IsValid)
+            {
+                return result;
+            }
 
-            if (!int.TryParse(cliente.Celular, out _) || cliente.Celular.Length != 10)
-                return false;
+            _clienteRepository.AddCliente(cliente);
+            return result;
+        }
 
-            return true;
+        public IEnumerable<ClienteModel> GetAllClientesActivos()
+        {
+            return _clienteRepository.GetAllClientes().Where(c => c.Estado);
         }
     }
 }

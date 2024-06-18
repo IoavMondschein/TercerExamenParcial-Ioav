@@ -2,6 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using Repository.Repository;
 using Repository;
 using Services;
+using FluentValidation.AspNetCore;
+using FluentValidation;
+using Repository.Models;
+using Services.Validaciones;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +23,11 @@ builder.Services.AddScoped<FacturaRepository>();
 
 builder.Services.AddScoped<ClienteService>();
 builder.Services.AddScoped<FacturaService>();
+
+builder.Services.AddScoped<IValidator<ClienteModel>, ClienteValidator>();
+builder.Services.AddScoped<IValidator<FacturaModel>, FacturaValidator>();
+
+builder.Services.AddFluentValidationAutoValidation();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

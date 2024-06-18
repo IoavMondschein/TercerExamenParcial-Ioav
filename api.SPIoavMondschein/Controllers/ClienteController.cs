@@ -2,6 +2,7 @@
 using Repository.Models;
 using Repository.Repository;
 using Services;
+using FluentValidation.Results;
 
 namespace api.SPIoavMondschein.Controllers
 {
@@ -19,19 +20,22 @@ namespace api.SPIoavMondschein.Controllers
         }
 
         [HttpPost("CrearCliente")]
-        public IActionResult PostCliente([FromBody] ClienteModel cliente)
+        public async Task<IActionResult> PostCliente([FromBody] ClienteModel cliente)
         {
-            if (!_clienteService.ValidateCliente(cliente))
-                return BadRequest("Los datos del cliente no son válidos.");
+            ValidationResult validationResult = await _clienteService.CreateClienteAsync(cliente);
 
-            _clienteRepository.AddCliente(cliente);
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
+
             return Ok("Cliente agregado correctamente.");
         }
 
         [HttpGet("ObtenerClientes")]
         public IActionResult GetAllClientes()
         {
-            var clientes = _clienteRepository.GetAllClientes();
+            var clientes = _clienteService.GetAllClientesActivos();
             return Ok(clientes);
         }
 
@@ -52,8 +56,12 @@ namespace api.SPIoavMondschein.Controllers
             if (existingCliente == null)
                 return NotFound("Cliente no encontrado.");
 
-            if (!_clienteService.ValidateCliente(cliente))
-                return BadRequest("Los datos del cliente no son válidos.");
+            ValidationResult validationResult = _clienteService.CreateClienteAsync(cliente).Result;
+
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
 
             existingCliente.Nombre = cliente.Nombre;
             existingCliente.Apellido = cliente.Apellido;

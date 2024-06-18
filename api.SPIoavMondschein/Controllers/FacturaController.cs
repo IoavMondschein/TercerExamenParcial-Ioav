@@ -2,7 +2,6 @@
 using Repository.Models;
 using Repository.Repository;
 using Services;
-using System;
 using System.Collections.Generic;
 
 namespace api.SPIoavMondschein.Controllers
@@ -23,8 +22,8 @@ namespace api.SPIoavMondschein.Controllers
         [HttpPost("CrearFactura")]
         public IActionResult PostFactura([FromBody] FacturaModel factura)
         {
-            if (!_facturaService.ValidateFactura(factura))
-                return BadRequest("Los datos de la factura no son válidos.");
+            if (!_facturaService.ValidateFactura(factura, out var errors))
+                return BadRequest(errors);
 
             _facturaRepository.AddFactura(factura);
             return Ok("Factura agregada correctamente.");
@@ -49,8 +48,10 @@ namespace api.SPIoavMondschein.Controllers
         }
 
         [HttpPut("Actualizar")]
-        public IActionResult PutFactura( [FromBody] FacturaModel factura)
+        public IActionResult PutFactura([FromBody] FacturaModel factura)
         {
+            if (!_facturaService.ValidateFactura(factura, out var errors))
+                return BadRequest(errors);
 
             _facturaRepository.UpdateFactura(factura);
             return Ok("Factura actualizada correctamente.");

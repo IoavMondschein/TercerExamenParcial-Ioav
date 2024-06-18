@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TPSfNItY3LGQ6DJvs6e5O5tSsZOlV2DkNItZl1l1fVBb+4JI57HwLPabBUMxGBo2QRwn32udY/WxLyGenN5XIg==",
+  "dgSpecHash": "JBkcRYKWFtYwcy6ZWiZa4P/k7eoMTw+nRkX2lcJN5DKuW2A67O8zJkTyY9tTBFq3UTDKOu8VMWui4dp6ljFoVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\OptativoV-SegundoParcial-Ioav\\Services\\Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.30\\microsoft.entityframeworkcore.6.0.30.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.30\\microsoft.entityframeworkcore.abstractions.6.0.30.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.30\\microsoft.entityframeworkcore.analyzers.6.0.30.nupkg.sha512",
